@@ -4,6 +4,7 @@ import Destinations from './Destinations.jsx'
 import Search from './Search.jsx'
 import Selects from './Selects.jsx'
 import Carousel from './Carousel.jsx'
+import Footer from './Footer.jsx'
 
 export {
     Navbar,
@@ -12,5 +13,5 @@ export {
     Search,
     Selects,
     Carousel,
-    
+    Footer    
 }
