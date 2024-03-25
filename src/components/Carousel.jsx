@@ -25,7 +25,10 @@ const Carousel = () => {
         setSlide(slide === 0 ? length - 1 : slide -1);
     }
   return (
-    <div className="max-w-[1240px] mx-auto px-4 py-16 relative flex justify-center items-center">
+    <div className="max-w-[1240px] mx-auto py-16 px-4 text-center">
+        <h1>All-Inclusive Resorts</h1>
+        <p className='py-2'>On the Caribbean's Best Beaches</p>
+        <div className="max-w-[1240px] mx-auto px-4 py-16 relative flex justify-center items-center">
         <BsArrowLeftSquareFill onClick={prevSlide} className='absolute top-[50%] text-3xl text-white cursor-pointer left-8' />
         <BsArrowRightSquareFill onClick={nextSlide} className='absolute top-[50%] text-3xl text-white cursor-pointer right-8' />
         {sliderData.map((item, index) => (
@@ -33,6 +36,7 @@ const Carousel = () => {
                 {index === slide && <img className='w-full rounded-md' src={item.url} alt="/" />}
             </div>
         ))}
+        </div>
     </div>
   )
 }
