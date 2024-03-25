@@ -1,5 +1,5 @@
 import React from "react"
-import { Navbar, Hero, Destinations, Search, Selects } from "./components/index.js"
+import { Navbar, Hero, Destinations, Search, Selects, Carousel } from "./components/index.js"
 
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <Destinations />
       <Search />
       <Selects />
+      <Carousel />
     </div>
   )
 }

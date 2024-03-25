@@ -3,6 +3,7 @@ import Hero from './Hero.jsx'
 import Destinations from './Destinations.jsx'
 import Search from './Search.jsx'
 import Selects from './Selects.jsx'
+import Carousel from './Carousel.jsx'
 
 export {
     Navbar,
@@ -10,5 +11,6 @@ export {
     Destinations,
     Search,
     Selects,
+    Carousel,
     
 }
