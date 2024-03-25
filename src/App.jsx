@@ -1,10 +1,12 @@
+import React from "react"
+import { Navbar } from "./components/index.js"
 
 
 function App() {
 
   return (
     <div className="">
-      Setup is completed?
+      <Navbar />
     </div>
   )
 }
