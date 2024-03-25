@@ -1,5 +1,5 @@
 import React from "react"
-import { Navbar } from "./components/index.js"
+import { Navbar, Hero } from "./components/index.js"
 
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="">
       <Navbar />
+      <Hero />
     </div>
   )
 }
